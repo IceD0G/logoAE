@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf"); }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.logo {
+  display: flex;
+  width: 266.79px; }
+  .logo .logo__c {
+    position: relative;
+    font-family: "Poppins";
+    font-size: 94px;
+    line-height: 80px;
+    color: #261F0F;
+    text-transform: uppercase; }
+    .logo .logo__c .logo__c_triangle #tr {
+      position: absolute;
+      top: -0.8px;
+      left: -7.5px; }
+      .logo .logo__c .logo__c_triangle #tr .cls-3 {
+        fill: #00ADFF; }
+  .logo .logo__text {
+    padding-left: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .logo .logo__text .logo__car-market {
+      text-transform: uppercase;
+      font-family: "Poppins";
+      color: #261F0F;
+      font-size: 24px;
+      line-height: 25px;
+      font-weight: 600; }
+    .logo .logo__text .logo__expert-wrapper {
+      display: flex;
+      align-items: center; }
+      .logo .logo__text .logo__expert-wrapper .logo__expert {
+        text-transform: uppercase;
+        font-family: "Poppins";
+        color: #00ADFF;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 18px; }
+      .logo .logo__text .logo__expert-wrapper .logo__dinamic-platform {
+        text-transform: uppercase;
+        font-family: "Poppins";
+        color: #261F0F;
+        font-size: 8px;
+        height: fit-content;
+        padding-left: 6px; }

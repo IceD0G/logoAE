@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Poppins;
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+
+$ff: 'Poppins';
+$mainColor: #261F0F;
+$secondColor: #00ADFF;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  width: 266.79px;
+
+  .logo__c {
+    position: relative;
+    font-family: $ff;
+    font-size: 94px;
+    line-height: 80px;
+    color: #261F0F;
+    text-transform: uppercase;
+
+    .logo__c_triangle {
+      #tr {
+        position: absolute;
+        top: -0.8px;
+        left: -7.5px;
+
+        .cls-3 {
+          fill: $secondColor;
+        }
+      }
+    }
+  }
+
+  .logo__text {
+    padding-left: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .logo__car-market {
+      text-transform: uppercase;
+      font-family: $ff;
+      color: $mainColor;
+      font-size: 24px;
+      line-height: 25px;
+      font-weight: 600;
+    }
+
+    .logo__expert-wrapper {
+      display: flex;
+      align-items: center;
+
+      .logo__expert {
+        text-transform: uppercase;
+        font-family: $ff;
+        color: $secondColor;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 18px;
+      }
+
+      .logo__dinamic-platform {
+        text-transform: uppercase;
+        font-family: $ff;
+        color: $mainColor;
+        font-size: 8px;
+        height: fit-content;
+        padding-left: 6px;
+      }
+    }
+  }
+}
